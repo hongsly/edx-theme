@@ -221,6 +221,7 @@ Media queries
 }
 
 /* try to overwrite logo margin / nav font color*/
+/* but does not work .. */
 h1.logo{
 	margin: -12px 39px 0px 0px;
 }
