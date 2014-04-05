@@ -16,12 +16,14 @@ $cardinal-light: #c83737; //Selected Header BG Color, ie. calendar        ***Cus
 $cardinal-bg: #e9afaf; //Selected Content BG Color, ie. calendar          ***Custom, not from palette***
 
 //Beige Color Variables
-$beige: #9d9573;
+//$beige: #9d9573;
+$beige: #d7def0;
 $beige-60: lighten($beige, 18.5%); //Main Border/HR Color
 $beige-25: lighten($beige, 25%); 
 
 //Sandstone Color Variables
-$sandstone: #ddcf99;
+//$sandstone: #ddcf99;
+$sandstone: #344a96; // blue
 $sandstone-50: lighten($sandstone, 9%);
 $sandstone-25: lighten($sandstone, 20%); //Important Heading BG Color 
 
@@ -31,12 +33,19 @@ $gray-75: lighten($gray, 18.25%); //Lighter Text Color
 
 $gray-3: #e9e6df; //Block/Course BG Color
 $gray-2: #f2f1eb;
-$gray-1: #fbfbf9; //Main BG Color
+//$gray-1: #fbfbf9; //Main BG Color
+$gray-1: #e1e1e1; //Main BG Color
 $white: $gray-1;
 
-$black: #2e2d29;
+//$black: #2e2d29;
+$black: #444;
 $black-80: #585754;
 
+//-------- UF colors --------
+$blue: #0021a5;
+$dark-blue: #003490;
+$orange: #fd4c02;
+$lighter-orange: #fc6221;
 
 
 //-----------------
@@ -49,6 +58,7 @@ $body-font-family: $sans-serif;
 
 $theme-serif-font: 'Crimson Text';
 $serif: $theme-serif-font, $serif;
+
 
 
 
@@ -81,18 +91,18 @@ $base-font-color: $black;
 $lighter-base-font-color: $black-80;
 $very-light-text: $gray-1;
 
-$link-color: $dark-red;
-$link-color-d1: $dark-red;
-$link-hover: $cardinal-light;
+$link-color: $dark-blue;
+$link-color-d1: $dark-blue;
+$link-hover: $orange;
 $site-status-color: $cardinal-bg;
 
-$header-graphic-super-color: $dark-red;
+$header-graphic-super-color: $orange;
 $header-graphic-sub-color: $lighter-base-font-color;
 
-$header-link-color: $dark-red;
-$header-link-hover: $cardinal-light;
+$header-link-color: $dark-blue;
+$header-link-hover: $orange;
 
-$button-color: $cardinal-red;
+$button-color: $blue;
 $button-archive-color: $gray-3;
 
 $shadow-color: $gray;
@@ -103,16 +113,16 @@ $button-bg-color: $gray-3;
 $button-bg-hover-color: $gray-1;
 
 // actions - primary
-$action-primary-bg: $cardinal-red;
+$action-primary-bg: $light-orange;
 $action-primary-fg: $gray-2;
 $action-primary-shadow: none;
 
 // focused - hover/active pseudo states
-$action-primary-focused-bg: $dark-red;
+$action-primary-focused-bg: $orange;
 $action-primary-focused-fg: $gray-1;
 
 // current or active navigation item
-$action-primary-active-bg: $dark-red;
+$action-primary-active-bg: $orange;
 $action-primary-active-fg: $gray-1;
 $action-primary-active-shadow: none;
 $action-primary-active-focused-fg: $gray-2;
@@ -190,7 +200,7 @@ $homepage-bg-image: url('../themes/stanford/images/AE_CentralCampus06_KB.jpg');
 $login-banner-image: none;
 $register-banner-image: none;
 
-$video-thumb-url: '../themes/stanford/images/stanford-video-thumb.png';
+$video-thumb-url: '../themes/stanford/images/uf_logo.png';
 
 //-----------------
 //  Mixin Styles
