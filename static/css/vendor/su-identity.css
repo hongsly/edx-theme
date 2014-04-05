@@ -48,7 +48,7 @@
 #su-footer,
 #su-footer .su-container {
   /*background: #fc6221;*/
-  /*background: #dfe3f2 url(../../images/bg-footer.png) 0 0 repeat-x;*/
+  background: #dfe3f2 url(../../images/bg-footer.jpg) 0 0 repeat-x;
   color: #444;
   box-shadow: inset 0 4px 8px -2px rgba(0, 0, 0, 0.2); /* Horizontal offset , vertical offset, blur, internal spacing */
 }
